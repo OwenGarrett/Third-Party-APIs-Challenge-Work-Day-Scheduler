@@ -3,14 +3,48 @@
 // in the html.
 $(function () {
 
-
+// Displays stamp of date and time of when accessed 
 const currentDay = dayjs().format("dddd, MMMM D, hh:mm:ss a");
-
 $(function () {
-
 $("#currentDay").text(currentDay);
 
+
+
+
+var saveButton = $(".saveBtn");
+var hourNine = $("#hour-9");
+var hourTen = $("#hour-10");
+var hourEleven = $("#hour-11");
+var hourTwelve = $("#hour-12");
+var hourThirteen = $("#hour-13");
+var hourFourteen = $("#hour-14");
+var hourFifteen = $("#hour-15");
+var hourSixteen = $("#hour-16");
+var hourSeventeen = $("#hour-17");
+
+
+
+var hourNine = {
+  project: hourNine,
+  text: hourNine.val(),
+  hour: 9,
+};
+
+var hourTen = {
+  project: hourTen,
+  text: hourTen.val(),
+  hour: 10,
+};
+
+
+
+
+
+
+
+
 });
+
 
 
   // TODO: Add a listener for click events on the save button. This code should
