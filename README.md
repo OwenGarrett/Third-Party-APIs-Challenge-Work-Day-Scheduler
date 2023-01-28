@@ -2,7 +2,9 @@ Thank you for reviewing my submission and for providing your feedback for my sub
 
 👽☯️
 
-Submission  Link: 
+Submission  Link: https://sheogorath9.github.io/Third-Party-APIs-Challenge-Work-Day-Scheduler/ 
+
+<img src="app.png" alt="Deployed App" title="Deployed App">
 
 Screenshot
 
